@@ -1,0 +1,98 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color:rgb(17, 70, 124);
+  margin: 0px;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+  font-size: 15px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+h6{
+  margin: 0;
+  font-size: 8px;
+}
+
+p {
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.HomeContainer{
+  padding:10px;
+  height: calc(100vh - 165px);
+  overflow: hidden;
+}
+/* Dialog Box */
+.popup-content{
+  padding: 0px !important;
+  border: none !important;
+  border-radius: 10px;
+  width: 400px !important;
+}
+/* Table Style Setting */
+table{
+  width: 100%;
+}
+th{
+  font-style: italic;
+  font-weight: 100;
+  color: lightgray;
+  text-align: left;
+}
+td{
+  padding: 0px;
+}
+.td-item{
+  background-color: rgb(13, 58,103);
+  margin-top: 7px;
+  margin-right: 3px;
+  padding: 7px;
+  color: lightgray;
+}
+tbody{
+  max-height: calc(100vh - 205px);
+  display:block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width:100%;
+}::-webkit-scrollbar {
+  width: 10px;
+}::-webkit-scrollbar-thumb{
+  background-color:  rgb(13, 58,103);
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+thead tr, tbody tr {
+  display: flex;
+}
+
+tbody td, thead th {
+  display: block;
+}
